@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="intro">
+  <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
+  {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+</div>
+
+  <!-- Inclure les filtres -->
+  {{ partial "filtres.html" . }}
+
+  <!-- Liste des projets -->
+  <div id="liste-projets">
+    {{ range .Pages }}
+      <div class="projet" data-categories="{{ range .Params.categories }}{{ . }} {{ end }}">
+        <br>
+        <br>
+        {{ .Render "summary-project" }}
+      </div>
+    {{ end }}
+  </div>
+
+  <script src="/js/filtres.js"></script>
+{{ end }}

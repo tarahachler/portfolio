@@ -1,0 +1,6 @@
+<div class="summary-project">
+    <img class="summary-image" src="{{ .Params.vignette }}" alt="Vignette du projet {{ .Title }}">
+    <h2 class="summary-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p class="summary-description">{{ .Params.description }}</p>
+    <div class="summary-date">{{ dateFormat "2006" .Date }}</div>
+  </div>

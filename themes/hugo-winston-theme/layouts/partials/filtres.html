@@ -1,0 +1,14 @@
+{{ $uniqueCategories := slice }}
+<div id="filtres">
+  <button class="categorie-filtre active" data-category="all">tous</button>
+  {{ range .Site.RegularPages }}
+    {{ if eq .Section "projets" }}
+      {{ range .Params.categories }}
+        {{ if not (in $uniqueCategories .) }}
+          {{ $uniqueCategories = $uniqueCategories | append . }}
+          <button class="categorie-filtre" data-category="{{ . | urlize }}">{{ . }}</button>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
