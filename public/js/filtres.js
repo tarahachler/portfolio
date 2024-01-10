@@ -1,18 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const categorieFiltre = document.getElementById('categorie-filtre');
+    const filtres = document.getElementById('filtres');
+    const boutonsFiltre = filtres.querySelectorAll('.categorie-filtre');
     const projets = document.querySelectorAll('.projet');
   
-    categorieFiltre.addEventListener('change', function() {
-      const categorieSelectionnee = this.value;
+    boutonsFiltre.forEach(function(bouton) {
+      bouton.addEventListener('click', function() {
+        const categorieSelectionnee = this.getAttribute('data-category');
+        boutonsFiltre.forEach(function(b) {
+            b.classList.remove('active');
+          });
+        this.classList.add('active');
   
-      projets.forEach(function(projet) {
-        const categoriesProjet = projet.getAttribute('data-categories').split(' ');
+        projets.forEach(function(projet) {
+          const categoriesProjet = projet.getAttribute('data-categories').split(' ');
   
-        if (categorieSelectionnee === 'all' || categoriesProjet.includes(categorieSelectionnee)) {
-          projet.style.display = 'block';
-        } else {
-          projet.style.display = 'none';
-        }
+          if (categorieSelectionnee === 'all' || categoriesProjet.includes(categorieSelectionnee)) {
+            projet.style.display = 'block';
+          } else {
+            projet.style.display = 'none';
+          }
+        });
       });
     });
   });

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>website on Tara Hächler</title>
+    <link>/categories/website/</link>
+    <description>Recent content in website on Tara Hächler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 May 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>corps conscient</title>
+      <link>/projets/corps-conscient/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <guid>/projets/corps-conscient/</guid>
+      <description> Site web Wix Améliorer l&amp;rsquo;aspect visuel et l&amp;rsquo;UX Design du site vitrine d&amp;rsquo;une thérapeute.
+Voir le site </description>
+    </item>
+    <item>
+      <title>FonDkran</title>
+      <link>/projets/fondkran/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/projets/fondkran/</guid>
+      <description>Projet individuel à la HEIG-VD Site web Wordpress FonDkran est un projet de marketing digital visant à construire un site vitrine sur Wordpress ainsi que de mettre en place des techniques et outils de référencement SEO et d&amp;rsquo;analyse. Ce site web permet de rechercher et de télécharger des fonds d&amp;rsquo;écran par thème.
+Voir le site </description>
+    </item>
+  </channel>
+</rss>
