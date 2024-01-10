@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dev on Tara Hächler</title>
+    <link>/categories/dev/</link>
+    <description>Recent content in dev on Tara Hächler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>différence de salaires en suisse</title>
+      <link>/projets/salaires-mensuel/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      <guid>/projets/salaires-mensuel/</guid>
+      <description>Projet de groupe à la HEIG-VD Développement front-end &amp; visualisation de données Javascript &amp; d3 Développement front-end d&amp;rsquo;une interface mettant en avant les chiffres clés des différences de salaires entre hommes et femmes en Suisse sur plusieurs années. Ce projet à été réalisé en duo.</description>
+    </item>
+    <item>
+      <title>tradavoc</title>
+      <link>/projets/tradavoc-mockup/</link>
+      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
+      <guid>/projets/tradavoc-mockup/</guid>
+      <description>Projet individuel à la HEIG-VD Conception UI Figma Tradavoc est un projet de cours de première année qui permet de traduire des mots du français à l&amp;rsquo;allemand, de créer des vocabulaires et des quiz avec corrections. Ce projet a été réalisé en PHP avec des requêtes SQL, phpmyadmin a été utilisé comme serveur de base de données et la partie traduction a été possible grâce à l&amp;rsquo;API DeepL.</description>
+    </item>
+  </channel>
+</rss>
