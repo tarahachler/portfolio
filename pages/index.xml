@@ -21,10 +21,11 @@ envoyer un mail</description>
       <link>https://tarahachler.github.io/portfolio/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/pages/about/</guid>
-      <description>![Illustration Tara]({{ .Site.BaseURL }}/images/emoji-round.png)
+      <description>![IllustrationTara]({{ .Site.BaseURL }}/images/emoji-round.png)
 Enchantée ! Je m&amp;rsquo;appelle Tara Hächler, je suis une étudiante en 3ème année en ingénierie des médias à la HEIG-VD .
 Je souhaite me spécialiser dans la création de contenu audiovisuel et la formation en technologies et communication.
-Compétences Expériences professionnelles · Service de communication de la HEIG-VD | 2023-2024 : Stratégie et création de contenus pour Tiktok et Instagram.
+Compétences ![Competences]({{ .Site.BaseURL }}/images/competences.png)
+Expériences professionnelles · Service de communication de la HEIG-VD | 2023-2024 : Stratégie et création de contenus pour Tiktok et Instagram.
 · Association Baleinev Festival | 2021-2024 : Décoration (2023-2024) Conception créative, planification, gestion du budget, création et montage.</description>
     </item>
   </channel>
