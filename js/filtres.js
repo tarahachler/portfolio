@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('DOM chargé');
     const filtres = document.getElementById('filtres');
     const boutonsFiltre = filtres.querySelectorAll('.categorie-filtre');
     const projets = document.querySelectorAll('.projet');
