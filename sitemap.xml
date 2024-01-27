@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tarahachler.github.io/portfolio/posts/article-5-experimentation/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tarahachler.github.io/portfolio/</loc>
+    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tarahachler.github.io/portfolio/posts/article-4-podcast/</loc>
+    <lastmod>2023-12-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tarahachler.github.io/portfolio/pages/contact/</loc>
     <lastmod>2023-12-18T00:05:43+01:00</lastmod>
   </url><url>
     <loc>https://tarahachler.github.io/portfolio/pages/</loc>
-    <lastmod>2023-12-18T00:05:43+01:00</lastmod>
-  </url><url>
-    <loc>https://tarahachler.github.io/portfolio/</loc>
     <lastmod>2023-12-18T00:05:43+01:00</lastmod>
   </url><url>
     <loc>https://tarahachler.github.io/portfolio/posts/</loc>
@@ -38,16 +44,16 @@
     <loc>https://tarahachler.github.io/portfolio/categories/ui/</loc>
     <lastmod>2023-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tarahachler.github.io/portfolio/posts/article-5-awesome/</loc>
+    <loc>https://tarahachler.github.io/portfolio/posts/article-3-awesome/</loc>
     <lastmod>2023-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tarahachler.github.io/portfolio/posts/article-4-as/</loc>
+    <loc>https://tarahachler.github.io/portfolio/posts/article-2-as/</loc>
     <lastmod>2023-12-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tarahachler.github.io/portfolio/posts/article-3-smode/</loc>
+    <loc>https://tarahachler.github.io/portfolio/posts/article-1-smode/</loc>
     <lastmod>2023-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tarahachler.github.io/portfolio/posts/article-2-systeme/</loc>
+    <loc>https://tarahachler.github.io/portfolio/posts/article-0-systeme/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tarahachler.github.io/portfolio/projets/chillfrip/</loc>

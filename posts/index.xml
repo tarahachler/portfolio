@@ -9,36 +9,54 @@
     <lastBuildDate>Sat, 16 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tarahachler.github.io/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exploration Époustouflante de l&#39;Audio Visuel avec GitHub</title>
-      <link>https://tarahachler.github.io/portfolio/posts/article-5-awesome/</link>
-      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/posts/article-5-awesome/</guid>
-      <description>L&amp;rsquo;audiovisuel musical, une caractéristique que l&amp;rsquo;on retrouve dans les visualiseurs de musique électronique et les lecteurs multimédias, génère des images animées basées sur une pièce musicale. Ces images sont généralement créées et rendues en temps réel de manière synchronisée avec la musique pendant sa lecture.
-Le dépôt GitHub intitulé &amp;ldquo;Awesome Audio Visualization&amp;rdquo; propose une compilation impressionnante de ressources dans ce domaine. Regardons de plus près ce que cette collection offre et comment vous pouvez rester informé des dernières nouveautés.</description>
+      <title>5 | Exploration 3D brillante avec Adobe Illustrator</title>
+      <link>https://tarahachler.github.io/portfolio/posts/article-5-experimentation/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/posts/article-5-experimentation/</guid>
+      <description>Dans le monde de la conception graphique, chaque outil offre un terrain fertile pour l&amp;rsquo;expérimentation artistique. Récemment j&amp;rsquo;ai entrepris une exploration passionnante avec Adobe Illustrator. L&amp;rsquo;objectif ? Créer un effet de gonflement 3D brillant, une expérience artistique inspirante et riche d&amp;rsquo;apprentissages.
+Sujet et objectifs de l&amp;rsquo;expérience Au cœur de cette aventure graphique se trouve Adobe Illustrator, une plateforme versatile pour les créatifs. L&amp;rsquo;objectif était clair : expérimenter la création d&amp;rsquo;un effet de gonflement 3D brillant, apportant profondeur et dynamisme à une composition visuelle.</description>
     </item>
     <item>
-      <title>Éclairage sur l&#39;Innovation Scénographique</title>
-      <link>https://tarahachler.github.io/portfolio/posts/article-4-as/</link>
+      <title>4 | Creative coding et art génératif dans le podcast Generative Art</title>
+      <link>https://tarahachler.github.io/portfolio/posts/article-4-podcast/</link>
+      <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/posts/article-4-podcast/</guid>
+      <description>Épisode du 19 décembre 2023
+L&amp;rsquo;épisode intitulé &amp;ldquo;Digital Art and the World of Creative Coding&amp;rdquo; du podcast &amp;ldquo;Generative Art - The Podcast&amp;rdquo; a été diffusé le 19 décembre 2023. Animé par les talentueux Ruth John et Tim Holman, cet épisode propose une plongée approfondie dans le vaste monde du code créatif, explorant à la fois l&amp;rsquo;art numérique et génératif.
+La vision détaillée du code créatif Dans cet épisode, les hôtes, Ruth et Tim, offrent une vision détaillée du code créatif, abordant les aspects aussi bien de l&amp;rsquo;art numérique que de l&amp;rsquo;art génératif.</description>
+    </item>
+    <item>
+      <title>3 | Exploration époustouflante de l&#39;audiovisuel avec GitHub</title>
+      <link>https://tarahachler.github.io/portfolio/posts/article-3-awesome/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/posts/article-3-awesome/</guid>
+      <description>L&amp;rsquo;audiovisuel musical, une caractéristique que l&amp;rsquo;on retrouve dans les visualiseurs de musique électronique et les lecteurs multimédias, génère des images animées basées sur une pièce musicale. Ces images sont généralement créées et rendues en temps réel de manière synchronisée avec la musique pendant sa lecture.
+Le dépôt GitHub intitulé &amp;ldquo;Awesome Audio Visualization&amp;rdquo; propose une compilation impressionnante de ressources, offrant une plongée profonde dans l&amp;rsquo;univers captivant de l&amp;rsquo;audiovisuel musical.
+Contenu du répertoire J’ai découvert un repo bien organisé, divisé en plusieurs sections, chacune offrant une perspective unique sur l&amp;rsquo;audiovisuel.</description>
+    </item>
+    <item>
+      <title>2 | Éclairage sur l&#39;Innovation Scénographique</title>
+      <link>https://tarahachler.github.io/portfolio/posts/article-2-as/</link>
       <pubDate>Sat, 02 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/posts/article-4-as/</guid>
-      <description>La plateforme en ligne AS Review se consacre à l&amp;rsquo;art de la scénographie, explorant divers aspects de ce domaine à travers une variété de sujets. Le site propose des articles traitant des dernières actualités en scénographie ainsi que des podcasts. Ayant souscrit à leur newsletter, je souhaite partager un aperçu des articles qui ont captivé mon intérêt dans la dernière édition.
+      <guid>https://tarahachler.github.io/portfolio/posts/article-2-as/</guid>
+      <description>La plateforme en ligne AS Review se consacre à l&amp;rsquo;art de la scénographie, explorant divers aspects de ce domaine à travers une variété de sujets. Le site propose des articles traitant des dernières actualités en scénographie ainsi que des podcasts. Ayant souscrit à leur newsletter, je souhaite partager un aperçu des articles qui ont captivé mon intérêt dans la dernière édition (23 novembre 2023).
 Lumière sur l&amp;rsquo;Innovation : BLOC.TECH Révolutionne la Réduction de la Pollution Lumineuse dans les Salles de Spectacle La société BLOC.</description>
     </item>
     <item>
-      <title>Smode Tech innove avec Smode Community</title>
-      <link>https://tarahachler.github.io/portfolio/posts/article-3-smode/</link>
+      <title>1 | Smode Tech innove avec Smode Community</title>
+      <link>https://tarahachler.github.io/portfolio/posts/article-1-smode/</link>
       <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/posts/article-3-smode/</guid>
+      <guid>https://tarahachler.github.io/portfolio/posts/article-1-smode/</guid>
       <description>Smode Tech, la société visionnaire derrière les logiciels innovants Smode Compose et Smode Media Server, a récemment secoué le monde du compositing 2D/3D en lançant une version gratuite de son logiciel : Smode Community. Cette initiative audacieuse vise à démocratiser l&amp;rsquo;accès à des outils de pointe dans le domaine des arts visuels.
 Compositing 2D/3D : Un Art Cinématographique Le compositing 2D/3D est une technique fondamentale dans l&amp;rsquo;industrie cinématographique, l&amp;rsquo;animation, la production vidéo et les effets spéciaux.</description>
     </item>
     <item>
-      <title>Ma Veille Technologique dans le Monde de la Création</title>
-      <link>https://tarahachler.github.io/portfolio/posts/article-2-systeme/</link>
+      <title>0 | Mon système de veille, mes abonnements, ma routine</title>
+      <link>https://tarahachler.github.io/portfolio/posts/article-0-systeme/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/posts/article-2-systeme/</guid>
-      <description>Plateformes de Design et de Création 99designs Une source incontournable pour les dernières tendances en matière de logos, de design web, graphique et bien plus encore. 99designs est la vitrine où je puise inspiration et idées novatrices pour enrichir mes projets.
-Behance La caverne d&amp;rsquo;Ali Baba des projets créatifs. Behance est une fenêtre ouverte sur le monde de la création visuelle, où je découvre des portfolios exceptionnels et des réalisations qui repoussent les limites de l&amp;rsquo;imagination.</description>
+      <guid>https://tarahachler.github.io/portfolio/posts/article-0-systeme/</guid>
+      <description>La créativité évolue à un rythme effréné, et pour rester en tête de la vague, une veille technologique constante est essentielle. Mon intérêt passionné pour la direction artistique, la création de contenu artistique, le design et la scénographie m&amp;rsquo;incite à explorer diverses plateformes afin de rester à la pointe des dernières tendances. Voici un aperçu des canaux que je suis assidûment :
+Plateformes de design et de création 99designs Une source incontournable pour les dernières tendances en matière de logos, de design web, graphique et bien plus encore.</description>
     </item>
   </channel>
 </rss>
