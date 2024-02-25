@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graphisme on Tara Hächler</title>
+    <link>https://tarahachler.github.io/portfolio/categories/graphisme/</link>
+    <description>Recent content in graphisme on Tara Hächler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://tarahachler.github.io/portfolio/categories/graphisme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Illustrator divers</title>
+      <link>https://tarahachler.github.io/portfolio/projets/illustrators/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/projets/illustrators/</guid>
+      <description>Graphisme Adobe Illustrator Réalisation de divers visuels pour explorer mon style, ma créativité et entrainer mes compétences techniques entre 2017 et 2023</description>
+    </item>
+  </channel>
+</rss>
