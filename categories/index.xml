@@ -6,20 +6,13 @@
     <description>Recent content in Categories on Tara Hächler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tarahachler.github.io/portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>logo</title>
-      <link>https://tarahachler.github.io/portfolio/categories/logo/</link>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/categories/logo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>print</title>
-      <link>https://tarahachler.github.io/portfolio/categories/print/</link>
-      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/categories/print/</guid>
+      <title>graphisme</title>
+      <link>https://tarahachler.github.io/portfolio/categories/graphisme/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/categories/graphisme/</guid>
       <description></description>
     </item>
     <item>
@@ -37,24 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>graphisme</title>
-      <link>https://tarahachler.github.io/portfolio/categories/graphisme/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/categories/graphisme/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>dev</title>
       <link>https://tarahachler.github.io/portfolio/categories/dev/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/categories/dev/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>infographie</title>
-      <link>https://tarahachler.github.io/portfolio/categories/infographie/</link>
-      <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/categories/infographie/</guid>
       <description></description>
     </item>
     <item>
