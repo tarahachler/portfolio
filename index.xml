@@ -6,8 +6,15 @@
     <description>Recent content in PORTFOLIO on Tara Hächler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tarahachler.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>L&#39;atelier d&#39;expression virtuel</title>
+      <link>https://tarahachler.github.io/portfolio/projets/projet-vr/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/projets/projet-vr/</guid>
+      <description>Voir le jeu Développement vr A-frame &amp; THREE.js L&amp;rsquo;atelier d&amp;rsquo;expression virutel est une expérience en réalité virtuelle développée dans le cadre d&amp;rsquo;un cours à option à la HEIG-VD. Il permet aux utilisateur.trice.s de se détendre à travers la peinture en 3 dimensions.</description>
+    </item>
     <item>
       <title>5 | Exploration 3D brillante avec Adobe Illustrator</title>
       <link>https://tarahachler.github.io/portfolio/posts/article-5-experimentation/</link>
@@ -17,11 +24,11 @@
 Sujet et objectifs de l&amp;rsquo;expérience Au cœur de cette aventure graphique se trouve Adobe Illustrator, une plateforme versatile pour les créatifs. L&amp;rsquo;objectif était clair : expérimenter la création d&amp;rsquo;un effet de gonflement 3D brillant, apportant profondeur et dynamisme à une composition visuelle.</description>
     </item>
     <item>
-      <title>timon bachmann</title>
+      <title>Timon Bachmann</title>
       <link>https://tarahachler.github.io/portfolio/projets/timon/</link>
       <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/timon/</guid>
-      <description>Logo et cartes de visite Design de logo et création de cartes de visite Création d&amp;rsquo;un logo, d&amp;rsquo;une identité visuelle et de cartes de visites pour un photographe.</description>
+      <description>Design de logo et cartes de visite Procreate, Adobe Illustrator &amp; InDesign Création d&amp;rsquo;un logo, d&amp;rsquo;une identité visuelle et de cartes de visites pour un photographe.</description>
     </item>
     <item>
       <title>4 | Creative coding et art génératif dans le podcast Generative Art</title>
@@ -41,25 +48,25 @@ La vision détaillée du code créatif Dans cet épisode, les hôtes, Ruth et Ti
 N&amp;rsquo;hésitez pas à me contacter ! profil LinkedIn envoyer un mail </description>
     </item>
     <item>
-      <title>couleur3 interact</title>
+      <title>Couleur3 Interact</title>
       <link>https://tarahachler.github.io/portfolio/projets/couleur3-interact-mockup/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/couleur3-interact-mockup/</guid>
-      <description>Projet de groupe à la HEIG-VD Conception UI &amp; flyers A5 Figma &amp; Adobe InDesign Couleur 3 Interact est une application conçue pour simplifier les interactions entre la radio Couleur 3 et son public. Ces prototypes haute fidélité ont été réalisés après des recherches approfondies sur les utilisateur.trice.s potentiel.le.s et l&amp;rsquo;identité de la radio. Nous avons créé ces maquettes à 2 étudiantes, et étions 8 au total pour réaliser les recherches UX, le développement font-end et back-end, la communication et la gestion de projet.</description>
+      <description>Conception UI et flyers pour une application mobile (projet de groupe à la HEIG-VD) Figma, Adobe Illustrator &amp; InDesign Couleur 3 Interact est une application conçue pour simplifier les interactions entre la radio Couleur 3 et son public. Ces prototypes haute fidélité ont été réalisés après des recherches approfondies sur les utilisateur.trice.s potentiel.le.s et l&amp;rsquo;identité de la radio. Nous avons créé ces maquettes à 2 étudiantes, et étions 8 au total pour réaliser les recherches UX, le développement font-end et back-end, la communication et la gestion de projet.</description>
     </item>
     <item>
-      <title>gepjn</title>
+      <title>Gepjn</title>
       <link>https://tarahachler.github.io/portfolio/projets/gepjn/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/gepjn/</guid>
-      <description>Projet expérimental Design de logo Adobe Illustrator Logo pour un magasin fictif d&amp;rsquo;équipement de sports de montagne.</description>
+      <description>Design de logo (projet expérimental) Adobe Illustrator Logo pour un magasin fictif d&amp;rsquo;équipement de sports de montagne.</description>
     </item>
     <item>
-      <title>odeur de café</title>
+      <title>Odeur de Café</title>
       <link>https://tarahachler.github.io/portfolio/projets/odeur-cafe/</link>
       <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/odeur-cafe/</guid>
-      <description>Projet expérimental Design de logo Adobe Illustrator Création d&amp;rsquo;un logo pour un café fictif basé à Lausanne.</description>
+      <description>Design de logo (projet expérimental) Adobe Illustrator Création d&amp;rsquo;un logo pour un café fictif basé à Lausanne.</description>
     </item>
     <item>
       <title>3 | Exploration époustouflante de l&#39;audiovisuel avec GitHub</title>
@@ -95,113 +102,114 @@ Compositing 2D/3D : Un Art Cinématographique Le compositing 2D/3D est une techn
 Plateformes de design et de création 99designs Une source incontournable pour les dernières tendances en matière de logos, de design web, graphique et bien plus encore.</description>
     </item>
     <item>
-      <title>chill&#39;frip</title>
+      <title>Chill&#39;frip</title>
       <link>https://tarahachler.github.io/portfolio/projets/chillfrip/</link>
       <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/chillfrip/</guid>
-      <description>Projet de groupe à la HEIG-VD Conception UI &amp; identité visuelle Figma, Adobe Illustrator &amp; Photoshop Création de l&amp;rsquo;identité visuelle et des maquettes pour les versions mobile et desktop d&amp;rsquo;un projet fictif de site web visant à lancer une friperie en ligne. La friperie a pour but de récolter des fonds pour créer un nouvel espace partagé pour les étudiantes et étudiants de la HEIG-VD.</description>
+      <description>Conception UI &amp; identité visuelle (projet de groupe à la HEIG-VD) Figma, Adobe Illustrator &amp; Photoshop Création de l&amp;rsquo;identité visuelle et des maquettes pour les versions mobile et desktop d&amp;rsquo;un projet fictif de site web visant à lancer une friperie en ligne. La friperie a pour but de récolter des fonds pour créer un nouvel espace partagé pour les étudiantes et étudiants de la HEIG-VD.</description>
     </item>
     <item>
-      <title>corps conscient</title>
+      <title>Corps conscient</title>
       <link>https://tarahachler.github.io/portfolio/projets/corps-conscient/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/corps-conscient/</guid>
-      <description>Site web Wix Améliorer l&amp;rsquo;aspect visuel et l&amp;rsquo;UX Design du site vitrine d&amp;rsquo;une thérapeute.</description>
+      <description>Création d&#39;un site web Wix Améliorer l&amp;rsquo;aspect visuel et l&amp;rsquo;UX Design du site vitrine d&amp;rsquo;une thérapeute.</description>
     </item>
     <item>
-      <title>application baleinev</title>
+      <title>Évolution des podcasts</title>
+      <link>https://tarahachler.github.io/portfolio/projets/podcast-infographie/</link>
+      <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/projets/podcast-infographie/</guid>
+      <description>Création d&#39;une infographie (projet de groupe à la HEIG-VD) Adobe Illustrator &amp; InDesign Infographie illustrant l&amp;rsquo;évolution des podcasts, conçue lors d&amp;rsquo;un projet de groupe à la HEIG-VD.</description>
+    </item>
+    <item>
+      <title>App Baleinev</title>
       <link>https://tarahachler.github.io/portfolio/projets/app-baleinev/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/app-baleinev/</guid>
-      <description> Conception UI Figma Le Baleinev Festival a lancé sa première application mobile en avril 2023. L&amp;rsquo;application a été conçue pour les festivalier.ère.s, afin de les aider à trouver facilement toutes les informations pratiques. Les maquettes ont été conçues sur Figma en collaboration étroite avec le développeur.
-Final Protoypes </description>
+      <description>Final Protoypes Conception UI d&#39;une application mobile Figma Le Baleinev Festival a lancé sa première application mobile en avril 2023. L&amp;rsquo;application a été conçue pour les festivalier.ère.s, afin de les aider à trouver facilement toutes les informations pratiques. Les maquettes ont été conçues sur Figma en collaboration étroite avec le développeur.</description>
     </item>
     <item>
-      <title>illustrator divers</title>
+      <title>Illustrator divers</title>
       <link>https://tarahachler.github.io/portfolio/projets/illustrators/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/illustrators/</guid>
-      <description>Graphisme Adobe Illustrator Réalisation de divers visuels pour explorer mon style, ma créativité et entrainer mes compétences techniques entre 2017 et 2023</description>
+      <description>Exploration créative et technique Adobe Illustrator Réalisation de divers visuels pour explorer mon style, ma créativité et entrainer mes compétences techniques entre 2017 et 2023</description>
     </item>
     <item>
-      <title>recrutement baleinev</title>
+      <title>Recrutement Baleinev</title>
       <link>https://tarahachler.github.io/portfolio/projets/recrutement-blv/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/recrutement-blv/</guid>
       <description>Création de flyer A5 Adobe InDesign Visuels pour le recrutement de nouveaux.elles bénévoles pour la 29e édition du Baleinev Festival.</description>
     </item>
     <item>
-      <title>semaine grillades baleinev</title>
+      <title>Semaine grillades Baleinev</title>
       <link>https://tarahachler.github.io/portfolio/projets/semaine-grillades/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/semaine-grillades/</guid>
       <description>Création d&#39;affiches A3 Adobe InDesign Affiches annonçant la semaine grillades de Baleinev à la HEIG-VD.</description>
     </item>
     <item>
-      <title>différence de salaires en suisse</title>
+      <title>Différence de salaires en Suisse</title>
       <link>https://tarahachler.github.io/portfolio/projets/salaires-mensuel/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/salaires-mensuel/</guid>
-      <description>Projet de groupe à la HEIG-VD Développement front-end &amp; visualisation de données Javascript &amp; d3 Développement front-end d&amp;rsquo;une interface mettant en avant les chiffres clés des différences de salaires entre hommes et femmes en Suisse sur plusieurs années. Ce projet à été réalisé en duo.</description>
+      <description>Développement &amp; visualisation de données Javascript &amp; d3 Développement front-end d&amp;rsquo;une interface mettant en avant les chiffres clés des différences de salaires entre hommes et femmes en Suisse sur plusieurs années. Ce projet à été réalisé en duo.</description>
     </item>
     <item>
-      <title>baleinev festival 2022</title>
+      <title>Baleinev Festival 2022</title>
       <link>https://tarahachler.github.io/portfolio/projets/baleinev-2022/</link>
       <pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/baleinev-2022/</guid>
-      <description>Identité de marque &amp; production de contenu imprimé Adobe Illustrator &amp; InDesign Création de la charte graphique de la 28e édition du Baleinev Festival et adaptation des différents supports de promotion à la nouvelle identité visuelle. Cette identité est basée sur le phoenix qui renaît de ses cendres, symbolisant le retour du festival post Covid-19.
-Affiche A3
-T-shirt bénévoles
-Tickets d&#39;entrée
-Bâche 1x3 m</description>
+      <description>Identité de marque &amp; production de contenu imprimé Adobe Illustrator &amp; InDesign Création de la charte graphique de la 28e édition du Baleinev Festival et adaptation des différents supports de promotion à la nouvelle identité visuelle. Cette identité est basée sur le phoenix qui renaît de ses cendres, symbolisant le retour du festival post Covid-19.</description>
     </item>
     <item>
-      <title>bonsay</title>
+      <title>Bonsay</title>
       <link>https://tarahachler.github.io/portfolio/projets/bonsay-logo/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/bonsay-logo/</guid>
-      <description>Projet expérimental Conception UI Figma Logo pour une crêche et école maternelle fictive dans un éco-quartier.</description>
+      <description>Design de logo (projet expérimental) Adobe Illustrator Logo pour une crêche et école maternelle fictive dans un éco-quartier.</description>
     </item>
     <item>
-      <title>masso-thérapie</title>
+      <title>Masso-thérapie</title>
       <link>https://tarahachler.github.io/portfolio/projets/massages/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/massages/</guid>
       <description>Design de logo et création de cartes de visite Adobe Illustrator et InDesign Création d&amp;rsquo;un logo et de cartes de visites à imprimer pour un massothérapeuthe.</description>
     </item>
     <item>
-      <title>tradavoc</title>
+      <title>Tradavoc</title>
       <link>https://tarahachler.github.io/portfolio/projets/tradavoc-mockup/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/tradavoc-mockup/</guid>
-      <description>Projet individuel à la HEIG-VD Conception UI Figma Tradavoc est un projet de cours de première année qui permet de traduire des mots du français à l&amp;rsquo;allemand, de créer des vocabulaires et des quiz avec corrections. Ce projet a été réalisé en PHP avec des requêtes SQL, phpmyadmin a été utilisé comme serveur de base de données et la partie traduction a été possible grâce à l&amp;rsquo;API DeepL.</description>
+      <description>Développement back-end PHP &amp; SQL Tradavoc est un projet de cours de première année qui permet de traduire des mots du français à l&amp;rsquo;allemand, de créer des vocabulaires et des quiz avec corrections. Ce projet a été réalisé en PHP avec SQL, phpmyadmin et l&amp;rsquo;API DeepL.</description>
     </item>
     <item>
-      <title>utilisation de la tv en suisse</title>
+      <title>Utilisation de la tv en suisse</title>
       <link>https://tarahachler.github.io/portfolio/projets/tv-suisse-infographie/</link>
       <pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/tv-suisse-infographie/</guid>
-      <description>Projet de groupe à la HEIG-VD Création d&#39;infographies sur une affiche A2 Adobe Illustrator &amp; InDesign Infographie illustrant la consommation de télévision en Suisse de 1995 à 2019, conçue lors d&amp;rsquo;un projet de groupe à la HEIG-VD.</description>
+      <description>Création d&#39;infographies sur une affiche A2 (projet de groupe à la HEIG-VD) Adobe Illustrator &amp; InDesign Infographie illustrant la consommation de télévision en Suisse de 1995 à 2019, conçue lors d&amp;rsquo;un projet de groupe à la HEIG-VD.</description>
     </item>
     <item>
-      <title>fonDkran</title>
+      <title>FonDkran</title>
       <link>https://tarahachler.github.io/portfolio/projets/fondkran/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/fondkran/</guid>
-      <description>Projet individuel à la HEIG-VD Site web Wordpress FonDkran est un projet de marketing digital visant à construire un site vitrine sur Wordpress ainsi que de mettre en place des techniques et outils de référencement SEO et d&amp;rsquo;analyse. Ce site web permet de rechercher et de télécharger des fonds d&amp;rsquo;écran par thème.
-Voir le site </description>
+      <description>Voir le site Création d&#39;un site web Wordpress FonDkran est un projet cours de marketing digital visant à construire un site vitrine sur Wordpress ainsi que de mettre en place des techniques et outils de référencement SEO et d&amp;rsquo;analyse. Ce site web permet de rechercher et de télécharger des fonds d&amp;rsquo;écran par thème.</description>
     </item>
     <item>
-      <title>face cachée</title>
+      <title>Face cachée</title>
       <link>https://tarahachler.github.io/portfolio/projets/face-cachee/</link>
       <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/projets/face-cachee/</guid>
-      <description>Réalisation, scénario &amp; montage Adobe Premiere Pro Synopsis Le court-métrage présente une adolescente qui, dans sa routine quotidienne, fait face à sa face cachée dans le miroir, déclenchant un état de détresse.
+      <description>voir la vidéo sur Youtube Réalisation, scénario &amp; montage Adobe Premiere Pro Synopsis Le court-métrage présente une adolescente qui, dans sa routine quotidienne, fait face à sa face cachée dans le miroir, déclenchant un état de détresse.
 Cette face cachée, une entité séparée d&amp;rsquo;elle-même, cherche désespérément à s&amp;rsquo;accrocher à son hôte, mais finit par disparaître, laissant l&amp;rsquo;adolescente en paix avec elle-même.
 Le titre suggère que cette face cachée représente une part d&amp;rsquo;elle-même jusque-là non révélée.</description>
     </item>
     <item>
-      <title>à propos</title>
+      <title>À propos</title>
       <link>https://tarahachler.github.io/portfolio/pages/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/pages/about/</guid>

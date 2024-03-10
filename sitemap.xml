@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tarahachler.github.io/portfolio/categories/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tarahachler.github.io/portfolio/categories/dev/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tarahachler.github.io/portfolio/projets/projet-vr/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tarahachler.github.io/portfolio/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://tarahachler.github.io/portfolio/projets/</loc>
+    <lastmod>2024-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tarahachler.github.io/portfolio/posts/article-5-experimentation/</loc>
     <lastmod>2024-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://tarahachler.github.io/portfolio/</loc>
-    <lastmod>2024-01-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tarahachler.github.io/portfolio/categories/</loc>
-    <lastmod>2023-12-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://tarahachler.github.io/portfolio/categories/graphisme/</loc>
-    <lastmod>2023-12-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tarahachler.github.io/portfolio/projets/</loc>
     <lastmod>2023-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tarahachler.github.io/portfolio/projets/timon/</loc>
@@ -62,6 +68,9 @@
     <loc>https://tarahachler.github.io/portfolio/projets/corps-conscient/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://tarahachler.github.io/portfolio/projets/podcast-infographie/</loc>
+    <lastmod>2023-05-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://tarahachler.github.io/portfolio/categories/website/</loc>
     <lastmod>2023-05-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -76,9 +85,6 @@
   </url><url>
     <loc>https://tarahachler.github.io/portfolio/projets/semaine-grillades/</loc>
     <lastmod>2022-12-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://tarahachler.github.io/portfolio/categories/dev/</loc>
-    <lastmod>2022-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://tarahachler.github.io/portfolio/projets/salaires-mensuel/</loc>
     <lastmod>2022-05-22T00:00:00+00:00</lastmod>

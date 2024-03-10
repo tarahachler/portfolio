@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Tara Hächler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://tarahachler.github.io/portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dev</title>
+      <link>https://tarahachler.github.io/portfolio/categories/dev/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://tarahachler.github.io/portfolio/categories/dev/</guid>
+      <description></description>
+    </item>
     <item>
       <title>graphisme</title>
       <link>https://tarahachler.github.io/portfolio/categories/graphisme/</link>
@@ -27,13 +34,6 @@
       <link>https://tarahachler.github.io/portfolio/categories/website/</link>
       <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
       <guid>https://tarahachler.github.io/portfolio/categories/website/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>dev</title>
-      <link>https://tarahachler.github.io/portfolio/categories/dev/</link>
-      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://tarahachler.github.io/portfolio/categories/dev/</guid>
       <description></description>
     </item>
     <item>
