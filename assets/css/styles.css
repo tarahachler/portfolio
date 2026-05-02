@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --muted: #ffffff;
+  --card: #ffffff;
+  --stroke: rgb(255, 255, 255);
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0);
+  --radius: 0px;
+  --max: 97.5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+body {
+  margin: 0;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  background: var(--bg);
+  color: var(--fg);
+}
+
+main {
+  flex: 1; /* prend tout l'espace disponible */
+}
+
+#logo {
+  width: 50vw;
+  height: auto;
+}
+
+#space-fold {
+  height: 91vh;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 2rem;
+  gap: 5rem;
+  margin-bottom: 2rem;
+}
+
+#space-fold h2 {
+  font-size: 1.4rem;
+  font-weight: 570;
+}
+
+.animated-welcome {
+  display: flex;
+  align-items: center;
+  background: #8ad5ff;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  margin-left: -4rem;
+  margin-right: -4rem;
+  width: calc(100% + 5.2rem);
+}
+
+.animated-welcome__track {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  animation: marquee 18s linear infinite;
+  will-change: transform;
+}
+
+.animated-welcome__track img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  transition: transform 0.15s ease-out;
+}
+
+.animated-welcome__track h2 {
+  font-size: 1.4rem;
+  font-weight: 570;
+  display: inline-block;
+  padding: 0.4rem 0.5rem;
+  white-space: nowrap;
+}
+
+.animated-welcome__track img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animated-welcome img {
+  align-self: center;
+  width: 50px;
+  height: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.date-project {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #23a5f0;
+  margin: 0;
+}
+
+.project-credits {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #22be2f;
+  margin: 0;
+}
+
+.list a {
+  color: #22a5f0;
+  text-decoration: underline;
+}
+img,
+video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  width: min(var(--max), calc(100% - 0rem));
+  margin: 0 auto;
+  padding: 0.5rem 0 2.5rem;
+}
+
+.topbar {
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding: 1.5rem 1.2rem;
+  gap: 1rem;
+}
+
+.brand {
+  letter-spacing: 0.2px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: rgba(255, 255, 255, 0);
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.intro h1 {
+  margin: 1rem 0 0.35rem;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+.intro p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 65ch;
+}
+
+.filters {
+  margin: 0.25rem 0 0.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.chip {
+  border: 1px solid var(--stroke);
+  background: transparent;
+  color: var(--fg);
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.chip:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+.chip.is-active {
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+/* cartes grandes et respirantes */
+.card {
+  grid-column: span 12;
+  height: 95dvh;
+  border: 1px solid var(--stroke);
+  background: var(--card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.card__content {
+  background-color: #ffffff;
+  width: 20%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  gap: 1rem;
+  z-index: 10;
+  position: relative;
+}
+
+.card__media {
+  width: 80%;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 820px) {
+  .card {
+    grid-column: span 12;
+  }
+}
+
+.card__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card__desc {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.92);
+  max-width: 60ch;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.card__cta,
+.card__ctaLink {
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 600;
+}
+
+/* Accessibilité : si navigation clavier */
+.card__link:focus-visible {
+  outline: 2px solid rgba(255, 255, 255);
+  outline-offset: 3px;
+}
+
+.footer {
+  border-top: 1px solid var(--stroke);
+  padding: 1.2rem 1rem;
+  background: rgb(255, 255, 255);
+}
+
+.footer__inner {
+  width: min(var(--max), calc(100% - 2rem));
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__contact {
+  color: var(--fg);
+}
+.footer__contact a:hover {
+  color: var(--fg);
+}
+.sep {
+  margin: 0 0.35rem;
+  opacity: 0.6;
+}
+
+.footer__meta {
+  color: var(--muted);
+}
+
+.about .lead {
+  color: var(--muted);
+  max-width: 70ch;
+}
+.about__section {
+  margin-top: 1.6rem;
+}
+.list {
+  margin: 0.6rem 0 0;
+  padding-left: 1.1rem;
+}
+.muted {
+  color: var(--muted);
+}
+
+.carousel {
+  position: absolute;
+  inset: 0;
+}
+.carousel__track {
+  height: 100%;
+  display: flex;
+  transition: transform 0.25s ease;
+}
+.carousel__slide {
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.card__overlay {
+  pointer-events: none; /* l'overlay ne capte plus les clics */
+}
+
+.card__overlay a,
+.card__overlay button {
+  pointer-events: auto; /* mais les éléments interactifs oui */
+}
+
+.card.is-peek .card__overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+.card.is-peek .card__media {
+  filter: blur(6px);
+}
+
+.card__overlay {
+  pointer-events: none; /* par défaut : il ne bloque rien */
+}
+
+.card.is-peek .card__overlay {
+  pointer-events: auto; /* quand ouvert : il capte la souris (hover) */
+}
+
+.footer {
+  border-top: 3px solid black;
+  padding: 1.5rem 1.2rem;
+  background: #8ad5ff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  border: 0;
+  background: transparent;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__prev { left: 0.75rem; }
+.carousel__next { right: 0.75rem; }
+
+.carousel__prev img,
+.carousel__next img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carousel__prev.is-hidden,
+.carousel__next.is-hidden {
+  display: none;
+}
+/* ============================================
+   CHANGO — titres identité
+   ============================================ */
+.chango, .about h1, .about__title {
+  font-family: 'Chango', cursive;
+  font-style: italic;
+  letter-spacing: -0.03em;
+  -webkit-text-stroke: 2px black;
+  paint-order: stroke fill;
+}
+
+/* ============================================
+   ABOUT PAGE — mise en page propre
+   ============================================ */
+.about #space-fold {
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+  gap: 0;
+  margin-bottom: 0;
+}
+
+.about #space-fold h1 {
+  font-family: 'Chango', cursive;
+  font-style: italic;
+  letter-spacing: -0.03em;
+  -webkit-text-stroke: 5px black;
+  paint-order: stroke fill;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  line-height: 1;
+  margin: 0;
+  color: #aff2b5;
+}
+
+.about__section {
+  margin-top: 2.5rem;
+  border-top: 2px solid black;
+  padding-top: 1.2rem;
+}
+
+.about__section h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 0 0 1.2rem 0;
+  color: #000000;
+}
+
+.about__section .list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.about__section .list p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-left: 0;
+}
+
+.about__section .list p::before {
+  content: '→ ';
+  color: #aff2b5;
+  font-weight: 700;
+}
+
+/* ============================================
+   RESPONSIVE — Mobile first
+   ============================================ */
+
+/* Topbar sur mobile */
+@media (max-width: 640px) {
+  .topbar {
+    padding: 1rem 1.2rem;
+  }
+
+  .brand, .nav a {
+    font-size: 1rem;
+  }
+
+  /* Hero fold */
+  #space-fold {
+    height: auto;
+    min-height: 55vw;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #space-fold h2 {
+    font-size: 0.9rem;
+  }
+
+  #logo {
+    width: 85vw;
+  }
+
+  /* Marquee */
+  .animated-welcome {
+    margin-left: -3rem;
+    margin-right: -3rem;
+    width: calc(100% + 3.4rem);
+    border-top: 1.8px solid black;
+    border-bottom: 1.8px solid black;
+  }
+
+  .animated-welcome img {
+    width: 30px;
+    height: 30px;
+  }
+
+
+  /* Cards : bascule en colonne */
+  .card {
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .card__content {
+    width: 100%;
+    order: 2;
+    padding: 1rem 1rem 1.5rem;
+  }
+
+  .card__media {
+    width: 100%;
+    height: 70vw;
+    min-height: 220px;
+    order: 1;
+    padding: 1rem 1rem 1.5rem;
+    position: relative;
+  }
+
+  .card__desc {
+    font-size: 0.92rem;
+  }
+
+  /* About */
+  .about #space-fold h1 {
+    font-size: clamp(2.8rem, 15vw, 5rem);
+text-align: center;
+    padding-right: 3rem;
+  }
+
+  .about #space-fold {
+    height: auto;
+    min-height: 30vw;
+  }
+
+  .about__section {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+/* Tablette */
+@media (min-width: 641px) and (max-width: 1023px) {
+  #space-fold {
+    height: auto;
+    min-height: 40vw;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  #logo {
+    width: 65vw;
+  }
+
+  .card {
+    flex-direction: column;
+    height: auto;
+    min-height: 80dvh;
+    margin-bottom: 1.5rem;
+  }
+
+  .card__content {
+    width: 100%;
+    order: 2;
+    border-top: 2px solid black;
+    padding: 1.2rem;
+  }
+
+  .card__media {
+    width: 100%;
+    height: 50vw;
+    order: 1;
+  }
+}
+
+/* Grand écran : garde le layout horizontal existant */
+@media (min-width: 1024px) {
+  .card {
+    flex-direction: row;
+    height: 95dvh;
+  }
+
+  .card__content {
+    width: 20%;
+  }
+
+  .card__media {
+    width: 80%;
+  }
+}
