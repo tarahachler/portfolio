@@ -13,6 +13,7 @@
 
 * {
   box-sizing: border-box;
+  cursor: url('../img/logo/etoile-2.svg') 16 16, auto;
 }
 html,
 body {
@@ -41,7 +42,7 @@ main {
 }
 
 #logo {
-  width: 50vw;
+  width: 45vw;
   height: auto;
 }
 
@@ -169,7 +170,7 @@ video {
 
 .nav {
   display: flex;
-  gap: 0.6rem;
+  gap: 1rem;
   align-items: center;
   font-size: 1.2rem;
 }
@@ -428,7 +429,7 @@ video {
   font-family: 'Chango', cursive;
   font-style: italic;
   letter-spacing: -0.03em;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 6px black;
   paint-order: stroke fill;
 }
 
