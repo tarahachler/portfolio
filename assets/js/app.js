@@ -54,7 +54,51 @@ if (openFilters && filters) {
 
 
 document.addEventListener("click", (e) => {
-  console.log("CLICK TARGET:", e.target);
+ // Effet d'étoiles au clic sur les zones "vides"
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function spawnStars(x, y) {
+  const count = 8; // nombre d'étoiles
+
+  for (let i = 0; i < count; i++) {
+    const star = document.createElement("img");
+    star.src = "assets/img/logo/etoile-2.svg"; // la même que ton curseur
+    star.alt = "";
+    star.className = "click-star";
+    star.style.left = x + "px";
+    star.style.top = y + "px";
+    document.body.appendChild(star);
+
+    const dx = (Math.random() - 0.5) * 180;       // dérive gauche/droite
+    const dy = -(100 + Math.random() * 160);      // monte vers le haut
+    const rot = (Math.random() - 0.5) * 720;      // rotation aléatoire
+
+    const anim = star.animate(
+      [
+        { transform: "translate(-50%, -50%) scale(1) rotate(0deg)", opacity: 1 },
+        {
+          transform: `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px)) scale(0.3) rotate(${rot}deg)`,
+          opacity: 0
+        }
+      ],
+      {
+        duration: 700 + Math.random() * 300,
+        delay: i * 45,                             // départ l'une après l'autre
+        easing: "cubic-bezier(.2,.7,.3,1)",
+        fill: "both"
+      }
+    );
+
+    anim.onfinish = () => star.remove();           // nettoyage
+  }
+}
+
+document.addEventListener("click", (e) => {
+  if (reduceMotion) return;
+  // On ignore les éléments faits pour être cliqués
+  if (e.target.closest("a, button, input, video, .card__media")) return;
+  spawnStars(e.clientX, e.clientY);
+});
 }, true); // capture
 
 // Simple carousel (next/prev + swipe)

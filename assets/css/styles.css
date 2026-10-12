@@ -42,7 +42,7 @@ main {
 }
 
 #logo {
-  width: 45vw;
+  width: 35vw;
   height: auto;
 }
 
@@ -53,8 +53,8 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   padding-left: 2rem;
-  gap: 5rem;
-  margin-bottom: 2rem;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 #space-fold h2 {
@@ -65,9 +65,6 @@ main {
 .animated-welcome {
   display: flex;
   align-items: center;
-  background: #8ad5ff;
-  border-bottom: 3px solid black;
-  border-top: 3px solid black;
   overflow: hidden;
   width: 100%;
   white-space: nowrap;
@@ -79,15 +76,30 @@ main {
 .animated-welcome__track {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  width: max-content;
+  gap: 0;
   animation: marquee 18s linear infinite;
   will-change: transform;
+}
+
+.animated-welcome__group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.animated-welcome__group > * {
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+}
+
+.animated-welcome__group > *:last-child {
+  margin-right: 0;
 }
 
 .animated-welcome__track img {
   width: 50px;
   height: 50px;
-  flex-shrink: 0;
   transition: transform 0.15s ease-out;
 }
 
@@ -97,12 +109,6 @@ main {
   display: inline-block;
   padding: 0.4rem 0.5rem;
   white-space: nowrap;
-}
-
-.animated-welcome__track img {
-  width: 50px;
-  height: 50px;
-  flex-shrink: 0;
 }
 
 @keyframes marquee {
@@ -123,19 +129,19 @@ a {
 .date-project {
   font-size: 0.9rem;
   font-weight: 400;
-  color: #23a5f0;
+  color: #eb0000;
   margin: 0;
 }
 
 .project-credits {
   font-size: 0.9rem;
   font-weight: 400;
-  color: #22be2f;
+  color: #ff5cd6;
   margin: 0;
 }
 
 .list a {
-  color: #22a5f0;
+  color: #ff5cd6;
   text-decoration: underline;
 }
 img,
@@ -385,7 +391,7 @@ video {
 .footer {
   border-top: 3px solid black;
   padding: 1.5rem 1.2rem;
-  background: #8ad5ff;
+  background: #ff5cd6;
   font-size: 1rem;
   font-weight: 500;
 }
@@ -428,9 +434,7 @@ video {
 .chango, .about h1, .about__title {
   font-family: 'Chango', cursive;
   font-style: italic;
-  letter-spacing: -0.03em;
-  -webkit-text-stroke: 6px black;
-  paint-order: stroke fill;
+  letter-spacing: -0.01em;
 }
 
 /* ============================================
@@ -447,13 +451,11 @@ video {
 .about #space-fold h1 {
   font-family: 'Chango', cursive;
   font-style: italic;
-  letter-spacing: -0.03em;
-  -webkit-text-stroke: 5px black;
-  paint-order: stroke fill;
-  font-size: clamp(3.5rem, 10vw, 7rem);
+  letter-spacing: -0.01em;
+  font-size: 4rem;
   line-height: 1;
   margin: 0;
-  color: #aff2b5;
+  color: #000000;
 }
 
 .about__section {
@@ -489,8 +491,14 @@ video {
 
 .about__section .list p::before {
   content: '→ ';
-  color: #aff2b5;
+  color: #eb0000;
   font-weight: 700;
+}
+
+.about__section #about_bio {
+  max-width: 55%;
+  text-align: justify;
+  hyphens: auto;
 }
 
 /* ============================================
@@ -582,6 +590,10 @@ text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
   }
+
+  .about__section #about_bio {
+  max-width: 100%;
+}
 }
 
 /* Tablette */
@@ -632,4 +644,13 @@ text-align: center;
   .card__media {
     width: 80%;
   }
+}
+
+.click-star {
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  pointer-events: none; /* ne bloque jamais les clics */
+  z-index: 9999;
 }

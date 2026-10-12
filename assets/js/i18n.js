@@ -2,11 +2,14 @@ const translations = {
   en: {
     nav_projects: "PROJECTS",
     nav_about: "ABOUT",
-    welcome: "WELCOME TO MY PORTFOLIO!",
+    welcome: "Welcome to my portfolio!",
     page_title_index: "Portfolio — Projects",
     page_title_about: "Portfolio — About",
 
     // Cards
+    kore_desc: `KORE. is a startup operating at the intersection of product design and human optimization. Powered by the Reddit community, the largest unfiltered focus group on earth, it deploys the KORE. Bot to scan for opportunities: posts written by people who want to improve, take control, and get back on track. These posts feed the KORE. Object Engine, which reads the low, tags the need, and ships the fix.
+
+By embracing the codes of over-productivism, this critical fiction exposes the silent logic that blames the individual. Reddit posts become mirrors of late-stage capitalism, and the result is an extraction process where emotional needs are categorized, optimized, and resold as products. Seductive in aesthetics, absurd in function, unsettling because these processes and objects might already exist.`,
     unwanted_desc: `(Un)wanted Guests is a collection of soft robots, each crafted with a unique personality and tool that influences their behavior and interactions. These guests create a variety of experiences: welcoming, unexpected, or even subtly unsettling—inviting individuals to connect with the one that feels most resonant. Located near the front door, these robots activate with the door's movement, turning this transitional space into a playful moment. The front door becomes a site of shared absurdity, offering a pause to step out of routine and engage with housemates in a shared experience. In the image on the right, you can meet Sasha Loquace, the chatterbox. Always ready to drop the most useless, outdated fun facts no one asked for. The kind of friend you grow weirdly attached to, despite knowing you'll get random trivia about 18th-century spoons mid-conversation.`,
     unwanted_credits: "Project made in collaboration with the CNRS",
     showmustgoon_desc: `There is rarely as much raw energy shared between people as at a massive concert—an exchange that fills both artist and audience, yet also challenges them deeply. From the artist's view, the crowd's energy is both thrilling and draining. With thousands of eyes locked onto them, their emotions swell, and they enter a heightened, almost ecstatic state. But beneath the bright lights, this connection reveals a darker side; the crowd's excitement starts to feel overwhelming, even monstrous, as if their hunger for more can never be satisfied. In «The Show Must Go On,» the performer's energy is absorbed by the crowd, leaving them vulnerable to the relentless demands of the spectacle. The show must indeed go on, but the price is high, as the boundary between celebration and exhaustion blurs. The artist is left wondering what will be left of them once all their energy is given.`,
@@ -34,24 +37,31 @@ const translations = {
     about_education_heading: "Education",
     about_experience_heading: "Experience",
 
+    // About - Bio
+    about_bio_heading: "Bio",
+    about_bio: "As a media designer and engineer, I operate at the intersection of critical design and creative technology. Having earned a Bachelor’s degree in media engineering from HEIG-VD and a Master’s degree in Media Design from HEAD–Geneva, my practice examines the invisible mechanisms that shape our relationship with the world and explores what becomes possible when we begin to challenge them. I work across a variety of media (web development, 3D, and graphic design) with strong ties to the cultural sector (Agence Inouïe, Musée du Léman, Paléo Festival, Baleinev Festival, Un été sous les Marronniers). These spaces, where collaboration is central, serve as ideal testing grounds for me to carry out complex projects, from conception to completion. Drawing on design research as a tool for perspective and understanding, I am now focusing on collaborative projects in culture, education, and events. My goal is to provide tools and a visual framework to support the emergence of new practices.",
+
     // About — HTML with links (use data-i18n-html)
     about_education_1: `2024 — Bachelor in Media Engineering at <a href="https://heig-vd.ch" target="_blank" rel="noreferrer">HEIG-VD</a>`,
     about_education_2: `2026 — Master in Media Design at <a href="https://www.hesge.ch/head/" target="_blank" rel="noreferrer">HEAD — Geneva</a>`,
     about_exp_1: `2021 – 2024: Volunteer in several roles at Baleinev Festival (graphic design, communications manager, decoration)`,
     about_exp_2: `2023 – 2025: Volunteer in content creation and publishing at <a href="https://yeah.paleo.ch/fr" target="_blank" rel="noreferrer">Paléo Festival</a>`,
     about_exp_3: `2024: Communications and content creation manager for the festival Un été sous les Marronniers`,
-    about_exp_4: `2024 – Present: Visitor services assistant at <a href="https://museeduleman.ch" target="_blank" rel="noreferrer">Musée du Léman</a>`,
+    about_exp_4: `2024 – 2026: Visitor services assistant at <a href="https://museeduleman.ch" target="_blank" rel="noreferrer">Musée du Léman</a>`,
     about_exp_5: `2026 – Present: Digital communications at <a href="https://inouie.ch" target="_blank" rel="noreferrer">Inouïe</a>`,
   },
 
   fr: {
     nav_projects: "PROJETS",
     nav_about: "À PROPOS",
-    welcome: "BIENVENUE DANS MON PORTFOLIO !",
+    welcome: "Bienvenue dans mon portfolio !",
     page_title_index: "Portfolio — Projets",
     page_title_about: "Portfolio — À propos",
 
 // Cards
+    kore_desc: `KORE. est une start-up qui opère à la croisée de la conception de produits et de l’optimisation humaine. S’appuyant sur la communauté Reddit, le plus grand groupe de discussion sans filtre au monde, elle déploie le KORE. Bot pour repérer des opportunités : des publications rédigées par des personnes qui souhaitent s’améliorer et prendre le contrôle sur leur vie. Ces publications alimentent le KORE. Object Engine, qui analyse le contenu, identifie le besoin et livre une solution personnalisée.
+
+En adoptant les codes du surproductivisme, cette fiction critique met à nu la logique silencieuse qui rejette la faute sur l’individu. Les posts Reddit deviennent les miroirs du capitalisme tardif, et il en résulte un processus d’extraction où les besoins émotionnels sont catégorisés, optimisés et revendus sous forme de produits. Séduisants mais absurdes dans leur fonction, ils sont troublants car ces processus et ces objets pourraient bien exister déjà.`,
     unwanted_desc: `(Un)wanted Guests est une collection de robots, chacun doté d'une personnalité et d'un outil qui influencent leur comportement et leurs interactions. Ces invités créent des expériences variées : accueillantes, inattendues, ou même subtilement dérangeantes, invitant chacun-e à se connecter à celui qui lui correspond le mieux. Placés près de la porte d'entrée, ces robots s'activent avec le mouvement de la porte, transformant cet espace de transition en moment ludique. La porte d'entrée devient un lieu d'absurdité partagée, une pause pour sortir de la routine et interagir avec les cohabitant-es. Dans l'image à droite, vous pouvez rencontrer Sasha Loquace, le bavard. Toujours prêt à sortir les anecdotes les plus inutiles et dépassées que personne n'a demandées. Un ami auquel on s'attache, même en sachant qu'il vous sortira des anecdotes sur les cuillères du XVIIIe siècle en pleine conversation.`,
     unwanted_credits: "Projet réalisé en collaboration avec le CNRS",
     showmustgoon_desc: `Il est rare de partager une énergie aussi brute entre personnes qu'à un concert, un échange qui nourrit autant l'artiste que le public, tout en les mettant profondément à l'épreuve. Du point de vue de l'artiste, l'énergie de la foule est à la fois exaltante et épuisante. Avec des milliers de regards rivés sur eux/elles, leurs émotions s'enflent, et ils/elles entrent dans un état exacerbé, presque extatique. Mais sous les feux des projecteurs, cette connexion révèle un côté plus sombre. L'enthousiasme de la foule commence à sembler écrasant, presque monstrueux, comme si sa faim de plus ne pouvait jamais être rassasiée. Dans «The Show Must Go On», l'énergie du/de la performeur-euse est absorbée par la foule, le/la laissant vulnérable aux exigences incessantes du spectacle. Le show doit effectivement continuer, mais le prix est élevé, car la frontière entre célébration et épuisement se brouille. L'artiste se demande ce qu'il lui restera une fois toute son énergie donnée.`,
@@ -78,13 +88,17 @@ const translations = {
     about_education_heading: "Formations",
     about_experience_heading: "Expériences",
 
+    // About - Bio
+    about_bio_heading: "Bio",
+    about_bio: "Designer et ingénieure des médias, je navigue à l’intersection du design critique et de la technologie créative. Formée à la HEIG-VD avec un Bachelor en ingénierie des médias, et à la HEAD–Genève avec un Master en Media Design, ma pratique interroge les logiques invisibles qui structurent notre rapport au monde et explore ce qui devient possible lorsqu’on commence à les déplacer.Je travaille à travers des médias variés : développement web, 3D, graphisme, avec un ancrage fort dans les milieux culturels (Agence Inouïe, Musée du Léman, Paléo Festival, Baleinev Festival, Un été sous les Marronniers). Ces espaces où la collaboration est centrale sont pour moi des terrains d’expérimentation privilégiés pour porter des projets complexes, de la conception à la réalisation.Nourrie par la recherche en design comme outil de recul et de compréhension, je m’oriente aujourd’hui vers des projets collaboratifs dans la culture, l’éducation et l’événementiel. Avec comme objectif de transmettre des outils et une pensée visuelle pour accompagner l’émergence de nouvelles pratiques.",
+
     // About — HTML with links (use data-i18n-html)
     about_education_1: `2024 — Bachelor en Ingénierie des médias à la <a href="https://heig-vd.ch" target="_blank" rel="noreferrer">HEIG-VD</a>`,
     about_education_2: `2026 — Master en Media Design à la <a href="https://www.hesge.ch/head/" target="_blank" rel="noreferrer">HEAD — Genève</a>`,
     about_exp_1: `2021 – 2024 : Bénévole dans plusieurs pôles au Baleinev Festival (graphisme, responsable communication, décoration)`,
     about_exp_2: `2023 – 2025 : Bénévole en création de contenu et publishing au <a href="https://yeah.paleo.ch/fr" target="_blank" rel="noreferrer">Paléo Festival</a>`,
     about_exp_3: `2024 : Responsable communication et création de contenu pour le festival Un été sous les Marronniers`,
-    about_exp_4: `2024 – Aujourd'hui : Auxiliaire d'accueil au <a href="https://museeduleman.ch" target="_blank" rel="noreferrer">Musée du Léman</a>`,
+    about_exp_4: `2024 – 2026 : Auxiliaire d'accueil au <a href="https://museeduleman.ch" target="_blank" rel="noreferrer">Musée du Léman</a>`,
     about_exp_5: `2026 – Aujourd'hui : Communication digitale chez <a href="https://inouie.ch" target="_blank" rel="noreferrer">Inouïe</a>`,
   }
 };
